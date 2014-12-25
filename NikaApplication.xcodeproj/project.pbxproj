@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D23B6F791A0F171700CBC575 /* nl-icon in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F781A0F171700CBC575 /* nl-icon */; };
+		D23B6F7B1A0F1C7A00CBC575 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23B6F7A1A0F1C7A00CBC575 /* MediaPlayer.framework */; };
+		D23B6F7D1A0F1D9F00CBC575 /* video-play-button-png.png in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F7C1A0F1D9F00CBC575 /* video-play-button-png.png */; };
+		D23B6F831A0F273700CBC575 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F821A0F273700CBC575 /* play.png */; };
+		D23B6F851A0FDAA100CBC575 /* contact-icon-active.png in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F841A0FDAA100CBC575 /* contact-icon-active.png */; };
+		D23B6F881A0FDABA00CBC575 /* nl-icon-non-active.png in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F871A0FDABA00CBC575 /* nl-icon-non-active.png */; };
+		D23B6F8A1A0FDAC900CBC575 /* projects-icon in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F891A0FDAC900CBC575 /* projects-icon */; };
+		D23B6F8C1A0FDAD500CBC575 /* projects-icon-active.png in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F8B1A0FDAD500CBC575 /* projects-icon-active.png */; };
+		D23B6F8E1A0FDADC00CBC575 /* services-icon-active.png in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F8D1A0FDADC00CBC575 /* services-icon-active.png */; };
+		D23B6F901A0FDAE600CBC575 /* services-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F8F1A0FDAE600CBC575 /* services-icon.png */; };
+		D23B6F921A0FDAF300CBC575 /* videos-icon-active.png in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F911A0FDAF300CBC575 /* videos-icon-active.png */; };
+		D23B6F941A0FDAF900CBC575 /* videos-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F931A0FDAF900CBC575 /* videos-icon.png */; };
+		D23B6F961A0FE38300CBC575 /* service-i-na in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F951A0FE38300CBC575 /* service-i-na */; };
+		D23B6F981A0FE49A00CBC575 /* service-i-new.png in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F971A0FE49A00CBC575 /* service-i-new.png */; };
+		D23B6F9A1A0FEDA000CBC575 /* contact-icon in Resources */ = {isa = PBXBuildFile; fileRef = D23B6F991A0FEDA000CBC575 /* contact-icon */; };
+		D25587891A0EC51A008EEA27 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25587871A0EC50A008EEA27 /* MapKit.framework */; };
+		D255878A1A0EC51A008EEA27 /* MapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D25587871A0EC50A008EEA27 /* MapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D25587921A0EC76D008EEA27 /* Foundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D2B270B91A0894B700674754 /* Foundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D287FDBE1A0ED3E6004DB476 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D255878B1A0EC53F008EEA27 /* CoreLocation.framework */; };
+		D287FDBF1A0ED3EA004DB476 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D255878F1A0EC763008EEA27 /* CoreGraphics.framework */; };
+		D287FDC01A0EDE42004DB476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B270B91A0894B700674754 /* Foundation.framework */; };
+		D287FDC31A0EE9DA004DB476 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = D287FDC21A0EE9DA004DB476 /* MapPin.m */; };
+		D29EA2731A22A8EE001A27FC /* Nika Labs SEO.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D29EA2721A22A8EE001A27FC /* Nika Labs SEO.mp4 */; };
+		D29EA2751A22AE74001A27FC /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D29EA2741A22AE74001A27FC /* libz.1.2.5.dylib */; };
+		D2B270741A06F24500674754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B270731A06F24500674754 /* main.m */; };
+		D2B270771A06F24500674754 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B270761A06F24500674754 /* AppDelegate.m */; };
+		D2B2707A1A06F24500674754 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B270791A06F24500674754 /* ViewController.m */; };
+		D2B2707D1A06F24500674754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B2707B1A06F24500674754 /* Main.storyboard */; };
+		D2B2707F1A06F24500674754 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B2707E1A06F24500674754 /* Images.xcassets */; };
+		D2B270821A06F24500674754 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B270801A06F24500674754 /* LaunchScreen.xib */; };
+		D2B2708E1A06F24500674754 /* NikaApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B2708D1A06F24500674754 /* NikaApplicationTests.m */; };
+		D2B270981A06F29A00674754 /* BG-HOME in Resources */ = {isa = PBXBuildFile; fileRef = D2B270971A06F29A00674754 /* BG-HOME */; };
+		D2B2709A1A06F2B600674754 /* logo_nikalabs.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B270991A06F2B600674754 /* logo_nikalabs.png */; };
+		D2B2709D1A06F39200674754 /* ServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B2709C1A06F39200674754 /* ServicesViewController.m */; };
+		D2B270A31A06F63300674754 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B270A21A06F63300674754 /* VideosViewController.m */; };
+		D2B270A61A06F6E000674754 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B270A51A06F6E000674754 /* ContactViewController.m */; };
+		D2B270A91A0707B500674754 /* BrandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B270A81A0707B500674754 /* BrandingViewController.m */; };
+		D2B270AC1A0709B600674754 /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B270AB1A0709B600674754 /* WebsiteViewController.m */; };
+		D2B270AF1A070AEF00674754 /* MarketingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B270AE1A070AEF00674754 /* MarketingViewController.m */; };
+		D2B270B21A070B9300674754 /* MobileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B270B11A070B9300674754 /* MobileViewController.m */; };
+		D2B270B61A08839900674754 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B270B31A08830D00674754 /* MessageUI.framework */; };
+		D2B270B71A08839900674754 /* MessageUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D2B270B31A08830D00674754 /* MessageUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D2D097DD1A2BBB9C002E9BE7 /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D097DC1A2BBB9C002E9BE7 /* ProjectViewController.m */; };
+		D2D097E01A2BC8BD002E9BE7 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D097DF1A2BC8BD002E9BE7 /* CustomCell.m */; };
+		D2D097E61A2BDA9E002E9BE7 /* project-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D097E11A2BDA9E002E9BE7 /* project-1.png */; };
+		D2D097E71A2BDA9E002E9BE7 /* project-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D097E21A2BDA9E002E9BE7 /* project-2.png */; };
+		D2D097E81A2BDA9E002E9BE7 /* project-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D097E31A2BDA9E002E9BE7 /* project-3.png */; };
+		D2D097E91A2BDA9E002E9BE7 /* project-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D097E41A2BDA9E002E9BE7 /* project-4.png */; };
+		D2D097EA1A2BDA9E002E9BE7 /* project-5.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D097E51A2BDA9E002E9BE7 /* project-5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2B270881A06F24500674754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2B270661A06F24500674754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B2706D1A06F24500674754;
+			remoteInfo = NikaApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2B270B81A08839A00674754 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D255878A1A0EC51A008EEA27 /* MapKit.framework in Embed Frameworks */,
+				D2B270B71A08839900674754 /* MessageUI.framework in Embed Frameworks */,
+				D25587921A0EC76D008EEA27 /* Foundation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D23B6F781A0F171700CBC575 /* nl-icon */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nl-icon"; sourceTree = "<group>"; };
+		D23B6F7A1A0F1C7A00CBC575 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D23B6F7C1A0F1D9F00CBC575 /* video-play-button-png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-play-button-png.png"; sourceTree = "<group>"; };
+		D23B6F821A0F273700CBC575 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		D23B6F841A0FDAA100CBC575 /* contact-icon-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact-icon-active.png"; sourceTree = "<group>"; };
+		D23B6F871A0FDABA00CBC575 /* nl-icon-non-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nl-icon-non-active.png"; sourceTree = "<group>"; };
+		D23B6F891A0FDAC900CBC575 /* projects-icon */ = {isa = PBXFileReference; lastKnownFileType = file; path = "projects-icon"; sourceTree = "<group>"; };
+		D23B6F8B1A0FDAD500CBC575 /* projects-icon-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projects-icon-active.png"; sourceTree = "<group>"; };
+		D23B6F8D1A0FDADC00CBC575 /* services-icon-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "services-icon-active.png"; sourceTree = "<group>"; };
+		D23B6F8F1A0FDAE600CBC575 /* services-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "services-icon.png"; sourceTree = "<group>"; };
+		D23B6F911A0FDAF300CBC575 /* videos-icon-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videos-icon-active.png"; sourceTree = "<group>"; };
+		D23B6F931A0FDAF900CBC575 /* videos-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videos-icon.png"; sourceTree = "<group>"; };
+		D23B6F951A0FE38300CBC575 /* service-i-na */ = {isa = PBXFileReference; lastKnownFileType = file; path = "service-i-na"; sourceTree = "<group>"; };
+		D23B6F971A0FE49A00CBC575 /* service-i-new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "service-i-new.png"; sourceTree = "<group>"; };
+		D23B6F991A0FEDA000CBC575 /* contact-icon */ = {isa = PBXFileReference; lastKnownFileType = file; path = "contact-icon"; sourceTree = "<group>"; };
+		D25587871A0EC50A008EEA27 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D255878B1A0EC53F008EEA27 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D255878F1A0EC763008EEA27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D287FDC11A0EE9DA004DB476 /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		D287FDC21A0EE9DA004DB476 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		D29EA2721A22A8EE001A27FC /* Nika Labs SEO.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nika Labs SEO.mp4"; sourceTree = "<group>"; };
+		D29EA2741A22AE74001A27FC /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		D2B2706E1A06F24500674754 /* NikaApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikaApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B270721A06F24500674754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B270731A06F24500674754 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2B270751A06F24500674754 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2B270761A06F24500674754 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2B270781A06F24500674754 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2B270791A06F24500674754 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2B2707C1A06F24500674754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2B2707E1A06F24500674754 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2B270811A06F24500674754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D2B270871A06F24500674754 /* NikaApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikaApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B2708C1A06F24500674754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B2708D1A06F24500674754 /* NikaApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NikaApplicationTests.m; sourceTree = "<group>"; };
+		D2B270971A06F29A00674754 /* BG-HOME */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BG-HOME"; sourceTree = "<group>"; };
+		D2B270991A06F2B600674754 /* logo_nikalabs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_nikalabs.png; sourceTree = "<group>"; };
+		D2B2709B1A06F39200674754 /* ServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicesViewController.h; sourceTree = "<group>"; };
+		D2B2709C1A06F39200674754 /* ServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicesViewController.m; sourceTree = "<group>"; };
+		D2B270A11A06F63300674754 /* VideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosViewController.h; sourceTree = "<group>"; };
+		D2B270A21A06F63300674754 /* VideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosViewController.m; sourceTree = "<group>"; };
+		D2B270A41A06F6E000674754 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		D2B270A51A06F6E000674754 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		D2B270A71A0707B500674754 /* BrandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingViewController.h; sourceTree = "<group>"; };
+		D2B270A81A0707B500674754 /* BrandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandingViewController.m; sourceTree = "<group>"; };
+		D2B270AA1A0709B600674754 /* WebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteViewController.h; sourceTree = "<group>"; };
+		D2B270AB1A0709B600674754 /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteViewController.m; sourceTree = "<group>"; };
+		D2B270AD1A070AEF00674754 /* MarketingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketingViewController.h; sourceTree = "<group>"; };
+		D2B270AE1A070AEF00674754 /* MarketingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketingViewController.m; sourceTree = "<group>"; };
+		D2B270B01A070B9300674754 /* MobileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileViewController.h; sourceTree = "<group>"; };
+		D2B270B11A070B9300674754 /* MobileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileViewController.m; sourceTree = "<group>"; };
+		D2B270B31A08830D00674754 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D2B270B91A0894B700674754 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2D097DB1A2BBB9C002E9BE7 /* ProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectViewController.h; path = ../ProjectViewController.h; sourceTree = "<group>"; };
+		D2D097DC1A2BBB9C002E9BE7 /* ProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectViewController.m; path = ../ProjectViewController.m; sourceTree = "<group>"; };
+		D2D097DE1A2BC8BD002E9BE7 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		D2D097DF1A2BC8BD002E9BE7 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		D2D097E11A2BDA9E002E9BE7 /* project-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "project-1.png"; sourceTree = "<group>"; };
+		D2D097E21A2BDA9E002E9BE7 /* project-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "project-2.png"; sourceTree = "<group>"; };
+		D2D097E31A2BDA9E002E9BE7 /* project-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "project-3.png"; sourceTree = "<group>"; };
+		D2D097E41A2BDA9E002E9BE7 /* project-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "project-4.png"; sourceTree = "<group>"; };
+		D2D097E51A2BDA9E002E9BE7 /* project-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "project-5.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2B2706B1A06F24500674754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29EA2751A22AE74001A27FC /* libz.1.2.5.dylib in Frameworks */,
+				D23B6F7B1A0F1C7A00CBC575 /* MediaPlayer.framework in Frameworks */,
+				D287FDC01A0EDE42004DB476 /* Foundation.framework in Frameworks */,
+				D287FDBF1A0ED3EA004DB476 /* CoreGraphics.framework in Frameworks */,
+				D287FDBE1A0ED3E6004DB476 /* CoreLocation.framework in Frameworks */,
+				D25587891A0EC51A008EEA27 /* MapKit.framework in Frameworks */,
+				D2B270B61A08839900674754 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B270841A06F24500674754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2B270651A06F24500674754 = {
+			isa = PBXGroup;
+			children = (
+				D2B270701A06F24500674754 /* NikaApplication */,
+				D2B270B51A08837100674754 /* FrameWork */,
+				D2B2708A1A06F24500674754 /* NikaApplicationTests */,
+				D2B2706F1A06F24500674754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2B2706F1A06F24500674754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2B2706E1A06F24500674754 /* NikaApplication.app */,
+				D2B270871A06F24500674754 /* NikaApplicationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2B270701A06F24500674754 /* NikaApplication */ = {
+			isa = PBXGroup;
+			children = (
+				D29EA2721A22A8EE001A27FC /* Nika Labs SEO.mp4 */,
+				D2B270751A06F24500674754 /* AppDelegate.h */,
+				D2B270761A06F24500674754 /* AppDelegate.m */,
+				D2B270781A06F24500674754 /* ViewController.h */,
+				D2B270791A06F24500674754 /* ViewController.m */,
+				D2B2707B1A06F24500674754 /* Main.storyboard */,
+				D2B270B01A070B9300674754 /* MobileViewController.h */,
+				D2B270B11A070B9300674754 /* MobileViewController.m */,
+				D2B270AD1A070AEF00674754 /* MarketingViewController.h */,
+				D2B270AE1A070AEF00674754 /* MarketingViewController.m */,
+				D2B270AA1A0709B600674754 /* WebsiteViewController.h */,
+				D2B270AB1A0709B600674754 /* WebsiteViewController.m */,
+				D2B270A71A0707B500674754 /* BrandingViewController.h */,
+				D2B270A81A0707B500674754 /* BrandingViewController.m */,
+				D2B270A41A06F6E000674754 /* ContactViewController.h */,
+				D2B270A51A06F6E000674754 /* ContactViewController.m */,
+				D2B270A11A06F63300674754 /* VideosViewController.h */,
+				D2B270A21A06F63300674754 /* VideosViewController.m */,
+				D2B2709B1A06F39200674754 /* ServicesViewController.h */,
+				D2B2709C1A06F39200674754 /* ServicesViewController.m */,
+				D2D097DB1A2BBB9C002E9BE7 /* ProjectViewController.h */,
+				D2D097DC1A2BBB9C002E9BE7 /* ProjectViewController.m */,
+				D2D097DE1A2BC8BD002E9BE7 /* CustomCell.h */,
+				D2D097DF1A2BC8BD002E9BE7 /* CustomCell.m */,
+				D2B2707E1A06F24500674754 /* Images.xcassets */,
+				D2B270801A06F24500674754 /* LaunchScreen.xib */,
+				D2B270711A06F24500674754 /* Supporting Files */,
+				D287FDC11A0EE9DA004DB476 /* MapPin.h */,
+				D287FDC21A0EE9DA004DB476 /* MapPin.m */,
+			);
+			path = NikaApplication;
+			sourceTree = "<group>";
+		};
+		D2B270711A06F24500674754 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D097E11A2BDA9E002E9BE7 /* project-1.png */,
+				D2D097E21A2BDA9E002E9BE7 /* project-2.png */,
+				D2D097E31A2BDA9E002E9BE7 /* project-3.png */,
+				D2D097E41A2BDA9E002E9BE7 /* project-4.png */,
+				D2D097E51A2BDA9E002E9BE7 /* project-5.png */,
+				D23B6F971A0FE49A00CBC575 /* service-i-new.png */,
+				D23B6F951A0FE38300CBC575 /* service-i-na */,
+				D23B6F8B1A0FDAD500CBC575 /* projects-icon-active.png */,
+				D23B6F991A0FEDA000CBC575 /* contact-icon */,
+				D23B6F871A0FDABA00CBC575 /* nl-icon-non-active.png */,
+				D23B6F8F1A0FDAE600CBC575 /* services-icon.png */,
+				D23B6F8D1A0FDADC00CBC575 /* services-icon-active.png */,
+				D23B6F911A0FDAF300CBC575 /* videos-icon-active.png */,
+				D23B6F841A0FDAA100CBC575 /* contact-icon-active.png */,
+				D23B6F891A0FDAC900CBC575 /* projects-icon */,
+				D23B6F821A0F273700CBC575 /* play.png */,
+				D23B6F7C1A0F1D9F00CBC575 /* video-play-button-png.png */,
+				D23B6F781A0F171700CBC575 /* nl-icon */,
+				D2B270971A06F29A00674754 /* BG-HOME */,
+				D23B6F931A0FDAF900CBC575 /* videos-icon.png */,
+				D2B270991A06F2B600674754 /* logo_nikalabs.png */,
+				D2B270721A06F24500674754 /* Info.plist */,
+				D2B270731A06F24500674754 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2B2708A1A06F24500674754 /* NikaApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2B2708D1A06F24500674754 /* NikaApplicationTests.m */,
+				D2B2708B1A06F24500674754 /* Supporting Files */,
+			);
+			path = NikaApplicationTests;
+			sourceTree = "<group>";
+		};
+		D2B2708B1A06F24500674754 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2B2708C1A06F24500674754 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2B270B51A08837100674754 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				D29EA2741A22AE74001A27FC /* libz.1.2.5.dylib */,
+				D23B6F7A1A0F1C7A00CBC575 /* MediaPlayer.framework */,
+				D255878F1A0EC763008EEA27 /* CoreGraphics.framework */,
+				D255878B1A0EC53F008EEA27 /* CoreLocation.framework */,
+				D25587871A0EC50A008EEA27 /* MapKit.framework */,
+				D2B270B31A08830D00674754 /* MessageUI.framework */,
+				D2B270B91A0894B700674754 /* Foundation.framework */,
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2B2706D1A06F24500674754 /* NikaApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B270911A06F24500674754 /* Build configuration list for PBXNativeTarget "NikaApplication" */;
+			buildPhases = (
+				D2B2706A1A06F24500674754 /* Sources */,
+				D2B2706B1A06F24500674754 /* Frameworks */,
+				D2B2706C1A06F24500674754 /* Resources */,
+				D2B270B81A08839A00674754 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NikaApplication;
+			productName = NikaApplication;
+			productReference = D2B2706E1A06F24500674754 /* NikaApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2B270861A06F24500674754 /* NikaApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B270941A06F24500674754 /* Build configuration list for PBXNativeTarget "NikaApplicationTests" */;
+			buildPhases = (
+				D2B270831A06F24500674754 /* Sources */,
+				D2B270841A06F24500674754 /* Frameworks */,
+				D2B270851A06F24500674754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2B270891A06F24500674754 /* PBXTargetDependency */,
+			);
+			name = NikaApplicationTests;
+			productName = NikaApplicationTests;
+			productReference = D2B270871A06F24500674754 /* NikaApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2B270661A06F24500674754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Nika Labs";
+				TargetAttributes = {
+					D2B2706D1A06F24500674754 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D2B270861A06F24500674754 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D2B2706D1A06F24500674754;
+					};
+				};
+			};
+			buildConfigurationList = D2B270691A06F24500674754 /* Build configuration list for PBXProject "NikaApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2B270651A06F24500674754;
+			productRefGroup = D2B2706F1A06F24500674754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2B2706D1A06F24500674754 /* NikaApplication */,
+				D2B270861A06F24500674754 /* NikaApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2B2706C1A06F24500674754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23B6F8A1A0FDAC900CBC575 /* projects-icon in Resources */,
+				D23B6F9A1A0FEDA000CBC575 /* contact-icon in Resources */,
+				D2D097E71A2BDA9E002E9BE7 /* project-2.png in Resources */,
+				D23B6F921A0FDAF300CBC575 /* videos-icon-active.png in Resources */,
+				D23B6F901A0FDAE600CBC575 /* services-icon.png in Resources */,
+				D2B2707D1A06F24500674754 /* Main.storyboard in Resources */,
+				D29EA2731A22A8EE001A27FC /* Nika Labs SEO.mp4 in Resources */,
+				D2D097E81A2BDA9E002E9BE7 /* project-3.png in Resources */,
+				D23B6F881A0FDABA00CBC575 /* nl-icon-non-active.png in Resources */,
+				D23B6F831A0F273700CBC575 /* play.png in Resources */,
+				D23B6F7D1A0F1D9F00CBC575 /* video-play-button-png.png in Resources */,
+				D2B270821A06F24500674754 /* LaunchScreen.xib in Resources */,
+				D2D097E61A2BDA9E002E9BE7 /* project-1.png in Resources */,
+				D2B270981A06F29A00674754 /* BG-HOME in Resources */,
+				D23B6F791A0F171700CBC575 /* nl-icon in Resources */,
+				D2D097EA1A2BDA9E002E9BE7 /* project-5.png in Resources */,
+				D23B6F8C1A0FDAD500CBC575 /* projects-icon-active.png in Resources */,
+				D2D097E91A2BDA9E002E9BE7 /* project-4.png in Resources */,
+				D23B6F8E1A0FDADC00CBC575 /* services-icon-active.png in Resources */,
+				D23B6F941A0FDAF900CBC575 /* videos-icon.png in Resources */,
+				D23B6F851A0FDAA100CBC575 /* contact-icon-active.png in Resources */,
+				D23B6F981A0FE49A00CBC575 /* service-i-new.png in Resources */,
+				D2B2707F1A06F24500674754 /* Images.xcassets in Resources */,
+				D2B2709A1A06F2B600674754 /* logo_nikalabs.png in Resources */,
+				D23B6F961A0FE38300CBC575 /* service-i-na in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B270851A06F24500674754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2B2706A1A06F24500674754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D287FDC31A0EE9DA004DB476 /* MapPin.m in Sources */,
+				D2B270A61A06F6E000674754 /* ContactViewController.m in Sources */,
+				D2B270A31A06F63300674754 /* VideosViewController.m in Sources */,
+				D2B270B21A070B9300674754 /* MobileViewController.m in Sources */,
+				D2D097DD1A2BBB9C002E9BE7 /* ProjectViewController.m in Sources */,
+				D2B2707A1A06F24500674754 /* ViewController.m in Sources */,
+				D2B270771A06F24500674754 /* AppDelegate.m in Sources */,
+				D2B2709D1A06F39200674754 /* ServicesViewController.m in Sources */,
+				D2B270741A06F24500674754 /* main.m in Sources */,
+				D2B270AF1A070AEF00674754 /* MarketingViewController.m in Sources */,
+				D2B270AC1A0709B600674754 /* WebsiteViewController.m in Sources */,
+				D2B270A91A0707B500674754 /* BrandingViewController.m in Sources */,
+				D2D097E01A2BC8BD002E9BE7 /* CustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B270831A06F24500674754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B2708E1A06F24500674754 /* NikaApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2B270891A06F24500674754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2B2706D1A06F24500674754 /* NikaApplication */;
+			targetProxy = D2B270881A06F24500674754 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2B2707B1A06F24500674754 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B2707C1A06F24500674754 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2B270801A06F24500674754 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B270811A06F24500674754 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2B2708F1A06F24500674754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2B270901A06F24500674754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2B270921A06F24500674754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NikaApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2B270931A06F24500674754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NikaApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2B270951A06F24500674754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NikaApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikaApplication.app/NikaApplication";
+			};
+			name = Debug;
+		};
+		D2B270961A06F24500674754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NikaApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikaApplication.app/NikaApplication";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2B270691A06F24500674754 /* Build configuration list for PBXProject "NikaApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B2708F1A06F24500674754 /* Debug */,
+				D2B270901A06F24500674754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B270911A06F24500674754 /* Build configuration list for PBXNativeTarget "NikaApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B270921A06F24500674754 /* Debug */,
+				D2B270931A06F24500674754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B270941A06F24500674754 /* Build configuration list for PBXNativeTarget "NikaApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B270951A06F24500674754 /* Debug */,
+				D2B270961A06F24500674754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2B270661A06F24500674754 /* Project object */;
+}
